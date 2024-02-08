@@ -10,6 +10,7 @@ app.use(express.json());
 // create a function to handle the routes
 app.use(router);
 
+// set the port
 const PORT = process.env.PORT || 3000;
 
 // start the server
